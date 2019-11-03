@@ -123,12 +123,13 @@ li{
     font-family: 'Crimson Text', serif;
     grid-row: 3 / 4;
     background-color: lightgoldenrodyellow;
-    min-width: 900px;
+    min-width: 1200px;
     
 }
 
 .logos
 {
+    display: block;
     float: right;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -136,9 +137,12 @@ li{
 
 .thanks
 {
+    display: block;
     float: right;
     padding: 0px 0px 0px 0px;
     margin: 0px 20px 0px 0px;
+    max-width: 500px;
+    min-width: 450px;
 }
 
 .content1
