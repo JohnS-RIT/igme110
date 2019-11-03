@@ -23,6 +23,14 @@ body {
     background-color: gray;
 }
 
+.mygrid2 {
+    display: grid;
+    width: 80%;
+    grid-template-rows: 100px 50px 2fr 50px;
+    grid-template-columns: 1fr;
+    background-color: gray;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -46,6 +54,11 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h3
+{
+    color:rgb(73, 67, 67);
+}
+
 nav {
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -62,7 +75,7 @@ nav {
     padding-left: 30px;
 }
 
-.concepts 
+.conceptss
 {
     padding-left: 30px;
     line-height: 15px;
@@ -104,11 +117,37 @@ li{
     
 }
 
+.full-size {
+    padding-left: 15px;
+    padding-right: 0px;
+    font-family: 'Crimson Text', serif;
+    grid-row: 3 / 4;
+    background-color: lightgoldenrodyellow;
+    min-width: 900px;
+    
+}
+
 .logos
 {
     float: right;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+}
+
+.thanks
+{
+    float: right;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 20px 0px 0px;
+}
+
+.content1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -122,5 +161,10 @@ footer {
     padding-top: 30px;
     min-width: 1200px;
     
+}
+
+a 
+{ 
+    color: rgb(235, 245, 245);
 }
 
