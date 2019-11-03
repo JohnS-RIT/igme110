@@ -158,8 +158,9 @@ footer {
     grid-column: 1 / 3;
     background-color: rgb(112, 162, 230);
     padding-right: 5px;
-    padding-top: 30px;
+    padding-top: 25px;
     min-width: 1200px;
+   
     
 }
 
